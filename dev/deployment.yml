@@ -12,9 +12,9 @@ spec:
     metadata:
       labels:
         app: yelatman-playground
-  spec:
-      containers:
-      - name: yelatman-playground
-        image: wil42/playground:v1
-        ports:
-        - containerPort: 8888
+    spec:
+        containers:
+        - name: yelatman-playground
+          image: wil42/playground:v1
+          ports:
+          - containerPort: 8888
